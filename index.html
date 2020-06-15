@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fill</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+
+<div id="container">
+
+    <div>
+        <h1><span id="signUp">Sign up</span> to receive daily cat facts!</h1>
+    </div>
+
+    <div id="error"></div>
+
+    <form id="form" action="/" method="GET">
+        <div>
+            <label for="name">Username: </label>
+            <input id="name" name="name" type="text" placeholder="Kitter2020">
+        </div>
+
+        <div>
+            <label for="password">Password: </label>
+            <input id="password" name="password" type="password" placeholder="7-20 characters">
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <input id="email" name="email" type="text"  placeholder="123_abc@mail.com">
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
